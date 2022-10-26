@@ -7,14 +7,18 @@ import ModalAddSalida from "../components/ModalAddSalida";
 export default function Home() {
 
 
-    return(
+    return (
         <>
-            <ModalAdd></ModalAdd>
-            <Table></Table>
-            <ModalAddExistencia></ModalAddExistencia>
-            <TableEntradas></TableEntradas>
-            <ModalAddSalida></ModalAddSalida>
-            <TableSalida></TableSalida>
+            <div className="bg-dark">
+                <h1 className="text-white text-center">Inventario</h1><ModalAdd/>
+                <Table/>
+                <p></p>
+                <h1 className="text-white text-center">Entradas</h1><ModalAddExistencia/>
+                <TableEntradas/>
+                <p></p>
+                <h1 className="text-white text-center">Salidas</h1><ModalAddSalida/>
+                <TableSalida/>
+            </div>
         </>
     )
 }

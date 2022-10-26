@@ -38,8 +38,8 @@ export default function ModalAddExistencia() {
     
     return(
         <>
-            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAgregarEntradas">
-                AgregarEntradas
+            <button type="button" className="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalAgregarEntradas">
+                Agregar Entradas
             </button>
 
             <div className="modal fade" id="modalAgregarEntradas" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

@@ -12,26 +12,44 @@ export default function TableSalida() {
     const col =[{
         name:"Numero Factura",
         selector: i => i.id,
-        sortable:true
+        sortable:true,
+        style: {
+            background: "orange",
+          }
     },{
         name:"Fecha",
         selector:i => i.fecha,
-        sortable:true
+        sortable:true,
+        style: {
+            background: "orange",
+          }
     },{
         name: "Codigo Producto",
         selector:i =>i.codigoProducto,
-        sortable:true
+        sortable:true,
+        style: {
+            background: "orange",
+          }
     },{
         name: "Descripcion",
         selector:i =>i.descripcion,
-        sortable:true
+        sortable:true,
+        style: {
+            background: "orange",
+          }
     },{
         name:"Cantidad",
         selector:i=>i.cantidad,
-        sortable:true
+        sortable:true,
+        style: {
+            background: "orange",
+          }
     },{
-        name:"borrar",
-        selector:i=> <BtnDelete key={i.id} id={i.id} coleccion={"salida"}></BtnDelete>
+        name:"Borrar",
+        selector:i=> <BtnDelete key={i.id} id={i.id} coleccion={"salida"}></BtnDelete>,
+        style: {
+            background: "orange",
+          }
     }]
 
     useEffect(() => {

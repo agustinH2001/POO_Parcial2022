@@ -38,8 +38,8 @@ export default function ModalAddSalida() {
     
     return(
         <>
-            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAgregarSalida">
-                AgregarSalidas
+            <button type="button" className="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalAgregarSalida">
+                Agregar Salidas
             </button>
 
             <div className="modal fade" id="modalAgregarSalida" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
