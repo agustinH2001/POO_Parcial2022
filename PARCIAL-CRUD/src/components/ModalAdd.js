@@ -46,8 +46,8 @@ export default function ModalAdd() {
                         </div>
                         <div className="modal-body">
                             <form id="formAdd" onSubmit={handleAdd}>
-                                <input className="form-control my-2" name="descripcion" onChange={handleChange} defaultValue=""></input>
-                                <input className="form-control my-2" name="existenciasIniciales" onChange={handleChange} defaultValue=""></input>
+                                <input className="form-control my-2" name="descripcion" onChange={handleChange} defaultValue="" placeholder="Una descripción"></input>
+                                <input className="form-control my-2" name="existenciasIniciales" onChange={handleChange} defaultValue="" placeholder="Existencias iniciales"></input>
                                 <button className="btn btn-secondary" onClick={handleAdd} type="submit">Agregar</button>
                             </form>
                         </div>

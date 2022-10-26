@@ -51,10 +51,10 @@ export default function ModalAddExistencia() {
                         </div>
                         <div className="modal-body">
                             <form id="formAddExistencia" onSubmit={handleAdd}>
-                                <input className="form-control my-2" name="fecha" onChange={handleChange} ></input>
-                                <input className="form-control my-2" name="codigoProducto" onChange={handleChange} ></input>
-                                <input className="form-control my-2" name="descripcion" onChange={handleChange} ></input>
-                                <input className="form-control my-2" name="cantidad" onChange={handleChange} ></input>
+                                <input className="form-control my-2" name="fecha" onChange={handleChange} placeholder="Fecha (Ej. 12/10)"></input>
+                                <input className="form-control my-2" name="codigoProducto" onChange={handleChange} placeholder="Código Producto"></input>
+                                <input className="form-control my-2" name="descripcion" onChange={handleChange} placeholder="Descripción"></input>
+                                <input className="form-control my-2" name="cantidad" onChange={handleChange} placeholder="Cantidad de entrada"></input>
                                 <button className="btn btn-secondary" onClick={handleAdd} type="submit">Agregar</button>
                             </form>
                         </div>
