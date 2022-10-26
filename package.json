@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bootswatch": "^5.2.2",
+    "firebase": "^9.12.1"
+  }
+}
