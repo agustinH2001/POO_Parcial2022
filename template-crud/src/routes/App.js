@@ -1,9 +1,11 @@
-import './App.css';
-import Tabla from "./components/tabla"
-
+import Home from "../containers/Home";
+import FirestoreContext from "../context/FirestoreContext";
 function App() {
   return (
-    <Tabla/>
+    <FirestoreContext>
+      <Home></Home>
+    </FirestoreContext>
+    
   );
 }
 
