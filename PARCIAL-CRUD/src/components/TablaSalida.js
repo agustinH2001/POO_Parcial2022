@@ -2,7 +2,6 @@ import { useContext, useEffect } from "react"
 import DataTable from "react-data-table-component"
 import context from "../context/Context"
 import BtnDelete from "./BtnDelete"
-import BtnUpdate from "./BtnUpdate"
 
 export default function TableSalida() {
 
